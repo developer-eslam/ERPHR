@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_15sdp">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/_3sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:id="@+id/txtdisplayfirstname"
+                android:textSize="@dimen/_9sdp"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/_3sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:id="@+id/txtdisplaysceondname"
+                android:textSize="@dimen/_9sdp"            />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/_3sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:id="@+id/txtdisplaythirdname"
+                android:textSize="@dimen/_9sdp"            />
+
+            <TextView
+                android:gravity="center"
+
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:id="@+id/txtdisplayfourthname"
+                android:textSize="@dimen/_9sdp"     />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/txtdisplayF_PK_SSN"
+            android:textSize="@dimen/_9sdp" />
+
+
+            <TextView
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/txtdisplayF_StreetAndBuilding"
+                android:textSize="@dimen/_9sdp" />
+
+
+            <TextView
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/txtdisplayF_DateOfStopingSSN"
+                android:textSize="@dimen/_9sdp" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/txtdisplayF_Passport_Expired_Date"
+                android:textSize="@dimen/_9sdp" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/txtdisplayF_Status"
+                android:textSize="@dimen/_9sdp" />
+            <TextView
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/txtdisplayF_Religion"
+                android:textSize="@dimen/_9sdp" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/txtdisplayF_Nationality"
+                android:textSize="@dimen/_9sdp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:background="#607D8B"
+            />
+
+    </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

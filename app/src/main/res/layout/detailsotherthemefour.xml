@@ -1,0 +1,121 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    tools:context=".personalapplcation.persinalapptheme.personalappthemetwo"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+
+        android:paddingTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_4sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="@dimen/_15sdp"
+            android:text="@string/Other"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <Button
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_toRightOf="@+id/textin"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:background="@drawable/addthemefour"
+                    android:id="@+id/add"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    />
+                <EditText
+
+                    android:inputType="number"
+                    android:paddingLeft="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_22sdp"
+                    android:background="@drawable/style4"
+                    android:hint="Insert Number Of Text"
+                    android:layout_marginRight="@dimen/_15sdp"
+                    android:id="@+id/textin"
+                    android:layout_width="@dimen/_200sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentLeft="true"
+                    />
+            </RelativeLayout>
+
+
+            <LinearLayout
+
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_marginRight="@dimen/_11sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt"
+                    android:visibility="invisible"
+                    />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:visibility="invisible"
+                android:id="@+id/lin"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:paddingRight="@dimen/_15sdp"
+                    android:paddingLeft="@dimen/_15sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:onClick="create"
+                    android:text="@string/createpdf"
+                    android:background="@drawable/stylebuttonthemefour"
+                    android:textColor="#f0f0f0"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:textSize="@dimen/_20sdp"
+                    android:textAllCaps="false"
+                    android:id="@+id/createpdf"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

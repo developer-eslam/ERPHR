@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "939536648172",
+    "firebase_url": "https://warningalertserp.firebaseio.com",
+    "project_id": "warningalertserp",
+    "storage_bucket": "warningalertserp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939536648172:android:c5b9f7efe6fc5791",
+        "android_client_info": {
+          "package_name": "com.erpproject.enterpriseresourceplanning.erphr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939536648172-eqo6pq3c1ruv638bqc4revc5de7f0na1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAobDXTBccySj2wBqWuF3JlupSEay4tvuo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

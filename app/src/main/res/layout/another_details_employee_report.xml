@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+
+    android:id="@+id/table"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:stretchColumns="0,1,2,3,4"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <TableRow
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:paddingBottom="@dimen/_10sdp"
+            android:paddingLeft="@dimen/_1sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:paddingTop="@dimen/_10sdp" />
+        <LinearLayout
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider_invisible" />
+        </LinearLayout>
+
+
+        <TextView
+
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/_1sdp"
+            android:id="@+id/txtDateOfStopingSSN"
+            android:padding="@dimen/_1sdp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="@dimen/_9sdp" />
+
+        <LinearLayout
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider_invisible" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/txtstreetbuildnumber"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:textStyle="bold"
+            android:padding="@dimen/_1sdp"
+            android:textColor="#000"
+            android:textSize="@dimen/_9sdp" />
+        <LinearLayout
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider_invisible" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/_minus38sdp"
+            android:layout_marginRight="@dimen/_495sdp"
+            android:id="@+id/txtStatus"
+            android:textStyle="bold"
+            android:padding="@dimen/_1sdp"
+            android:textColor="#000"
+            android:textSize="@dimen/_9sdp"  />
+
+        <LinearLayout
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider_invisible" />
+        </LinearLayout>
+
+    </TableRow>
+
+</TableLayout>

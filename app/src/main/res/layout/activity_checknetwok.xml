@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+
+    android:background="@drawable/backgroundlayout"
+    android:layout_height="match_parent">
+
+
+    <Button
+
+        android:background="@drawable/buttonshape"
+        android:textColor="#f0f0f0"
+        android:textAllCaps="false"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:text="Retry"
+        android:textSize="@dimen/_20sdp"
+        android:id="@+id/button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

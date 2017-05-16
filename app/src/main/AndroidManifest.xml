@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.erpproject.enterpriseresourceplanning.erphr">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LauncherMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivityApp"></activity>
+        <activity android:name=".warningalerts.project.erp.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".warningalerts.project.erp.activity.DetailsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".warningalerts.project.erp.CheckNetwork">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".warningalerts.project.erp.firebasepackage.MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".warningalerts.project.erp.firebasepackage.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".warningalerts.project.erp.activity.ShowDetialsNotification">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".warningalerts.project.erp.activity.RegisterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".recuirmentsystem.project.erp.activity.MainActivityRecuirment" />
+        <activity android:name=".recuirmentsystem.project.erp.educations.educationtheme.educationthemefive" />
+        <activity android:name=".recuirmentsystem.project.erp.educations.educationtheme.educationthemefour" />
+        <activity android:name=".recuirmentsystem.project.erp.educations.educationtheme.educationthemeone" />
+        <activity android:name=".recuirmentsystem.project.erp.educations.educationtheme.educationthemethree" />
+        <activity android:name=".recuirmentsystem.project.erp.educations.educationtheme.educationthemetwo" />
+        <activity android:name=".recuirmentsystem.project.erp.skills.themeskills.skillsthemeone" />
+        <activity android:name=".recuirmentsystem.project.erp.skills.themeskills.skillsthemefour" />
+        <activity android:name=".recuirmentsystem.project.erp.skills.themeskills.skillsthemefive" />
+        <activity android:name=".recuirmentsystem.project.erp.skills.themeskills.skillsthemetwo" />
+        <activity android:name=".recuirmentsystem.project.erp.skills.themeskills.skillsthemethree" />
+        <activity android:name=".recuirmentsystem.project.erp.experience.experiencetheme.expeiencethemefive" />
+        <activity android:name=".recuirmentsystem.project.erp.experience.experiencetheme.experiencethemefour" />
+        <activity android:name=".recuirmentsystem.project.erp.experience.experiencetheme.experiencethemeone" />
+        <activity android:name=".recuirmentsystem.project.erp.experience.experiencetheme.experiencethemethree" />
+        <activity android:name=".recuirmentsystem.project.erp.experience.experiencetheme.experiencethemetwo" />
+        <activity android:name=".recuirmentsystem.project.erp.other.othertheme.otherthemefive" />
+        <activity android:name=".recuirmentsystem.project.erp.other.othertheme.otherthemefour" />
+        <activity android:name=".recuirmentsystem.project.erp.other.othertheme.otherthemeone" />
+        <activity android:name=".recuirmentsystem.project.erp.other.othertheme.otherthemethree" />
+        <activity android:name=".recuirmentsystem.project.erp.other.othertheme.otherthemetwo" />
+        <activity android:name=".recuirmentsystem.project.erp.personalapplcation.persinalapptheme.personalappthemefive" />
+        <activity android:name=".recuirmentsystem.project.erp.personalapplcation.persinalapptheme.personalappthemefour" />
+        <activity android:name=".recuirmentsystem.project.erp.personalapplcation.persinalapptheme.PersoanlApp" />
+        <activity android:name=".recuirmentsystem.project.erp.personalapplcation.persinalapptheme.personalappthemethree" />
+        <activity android:name=".recuirmentsystem.project.erp.personalapplcation.persinalapptheme.personalappthemetwo" />
+        <activity android:name=".employeereport.project.erp.activity.DetailsActivity" />
+        <activity android:name=".employeereport.project.erp.com.example.erproject.ActivityReportDisplay" />
+        <activity android:name=".employeereport.project.erp.activity.DetailsEmployeeActivity" />
+        <activity android:name=".employeereport.project.erp.internet.CheckNetwork" />
+        <activity android:name=".employeereport.project.erp.activity.SplashActivity" />
+        <activity android:name=".employeereport.project.erp.LoginActivity"></activity>
+    </application>
+
+</manifest>

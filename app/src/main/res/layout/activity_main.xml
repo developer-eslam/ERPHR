@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.erpproject.enterpriseresourceplanning.erphr.recuirmentsystem.project.erp.activity.MainActivityRecuirment">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/appbarlayout"
+        android:minHeight="?attr/actionBarSize"
+      >
+
+        <include
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            layout="@layout/toolbar" />
+
+        <android.support.design.widget.TabLayout
+            app:tabTextAppearance="@style/textapperance"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/tablayout"
+            app:tabMode="fixed"
+            android:background="@drawable/tab_color_selector">
+
+        </android.support.design.widget.TabLayout>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewpager"
+     >
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>
+

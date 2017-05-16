@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundlayout"
+    tools:context="com.erpproject.enterpriseresourceplanning.erphr.warningalerts.project.erp.activity.RegisterActivity">
+
+    <include
+
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        />
+
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+
+
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_10sdp"
+        android:layout_weight="1"
+        android:hint="@string/EnterYourName"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:background="@drawable/styleedittext"
+        android:id="@+id/txtinputlauoutname"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:paddingLeft="@dimen/_15sdp"
+        android:textSize="@dimen/_12sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#1499A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_10sdp"
+        android:layout_weight="1"
+        android:id="@+id/btnregister"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_below="@+id/txtinputlauoutname"
+        android:textColor="#fff"
+        android:textSize="@dimen/_15sdp"
+        android:textAllCaps="false"
+        android:text="@string/register"
+        android:layout_marginLeft="@dimen/_60sdp"
+        android:layout_marginRight="@dimen/_60sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:background="@drawable/buttonshape"
+        android:shadowRadius="5"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_10sdp"
+        android:layout_weight="1"
+        android:id="@+id/btninsertdata"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_below="@+id/btnregister"
+        android:textColor="#fff"
+        android:textSize="@dimen/_15sdp"
+        android:textAllCaps="false"
+        android:text="@string/reportting"
+        android:layout_marginLeft="@dimen/_60sdp"
+        android:layout_marginRight="@dimen/_60sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</RelativeLayout>

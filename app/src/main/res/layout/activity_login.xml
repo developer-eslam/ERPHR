@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:alpha="0.8"
+    tools:context="com.erpproject.enterpriseresourceplanning.erphr.employeereport.project.erp.LoginActivity">
+
+
+    <EditText
+        android:textColor="#fff"
+        android:id="@+id/txtusername"
+        android:hint="Enter Your Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtpassword"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Button
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btnlogin"
+        app:layout_constraintTop_toBottomOf="@+id/txtpassword"
+        tools:layout_editor_absoluteX="8dp" />
+
+</LinearLayout>

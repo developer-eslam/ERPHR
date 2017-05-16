@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blue">#1E88E5</color>
+    <color name="White">#f0f0f0</color>
+    <color name="mainPodSlider">#2E7D31</color>
+    <color name="colorTableLayout">#06579c</color>
+    <color name="red">#f00</color>
+    <color name="lime">#fa20</color>
+    <color name="tab">#364958</color>
+
+    <color name="startcolor">#2585a1</color>
+    <color name="endcolor">#14667e</color>
+    <color name="colortxt">#1f9ede</color>
+
+    <color name="colorPrimary">#364958</color>
+    <color name="colorPrimaryDark">#10324c</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+
+</resources>
